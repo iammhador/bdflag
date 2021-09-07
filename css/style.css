@@ -97,20 +97,40 @@ a, a:hover{
   list-style: none;
 }
 
-.social-icon li a{
+.social-icon li a .fa{
   display: block;
   width: 80px;
   height: 80px;
   line-height: 80px;
   color: white;
   font-size: 35px;
-  margin: 15px 0;
+  margin: 20px 10px;
   background: black;
   border-radius: 100%;
+  transition: 0.8s;
 }
 
-.social-icon li a:hover{
-  background: white;
-  color: black;
-  transition: 0.8s;
+.social-icon li a .fa-facebook:hover{
+  background: #139EF8;
+  color: #FFFFFF;
+}
+
+.social-icon li a .fa-reddit:hover{
+  background: #FF4500;
+  color: #FFFFFF;
+}
+
+.social-icon li a .fa-twitter:hover{
+  background: #00acee;
+  color: #FFFFFF;
+}
+
+.social-icon li a .fa-instagram:hover{
+  background: #C13584;
+  color: #FFFFFF;
+}
+
+.social-icon li a .fa-snapchat:hover{
+  background: #FFFC00;
+  color: #FFFFFF;
 }
